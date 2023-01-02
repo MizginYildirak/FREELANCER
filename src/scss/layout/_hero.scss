@@ -2,10 +2,6 @@
   padding: 6rem 0;
   color: white;
 
-  h1 {
-    font-size: 70px;
-  }
-
   p {
     font-size: 25px;
   }
@@ -23,5 +19,11 @@
         background-color: white !important;
       }
     }
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  h1 {
+    font-size: 70px;
   }
 }
