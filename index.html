@@ -22,14 +22,14 @@
   <nav
     class="navbar navbar-expand-lg navbar-fixed-top py-4 d-flex justify-content-center align-content-center text-light">
     <div class="container">
-      <span class="navbar-brand m-0 h1 text-light fs-3 fw-bolder">START BOOTSTRAP</span>
+      <span class="navbar-brand m-0 h1 text-light fs-3 fw-bolder pb-0">START BOOTSTRAP</span>
 
-      <ul class="d-flex list-unstyled justify-content-center align-content-center m-0">
-        <li class="nav-item active"><a class="text-light text-decoration-none nav-link fw-bolder p-4"
+      <ul class="d-flex list-unstyled justify-content-center align-content-center m-0 d-sm-none">
+        <li class="nav-item active"><a class="text-light text-decoration-none nav-link fw-bolder p-4 "
             href="">PORTFOLIO</a></li>
-        <li class="nav-item active"><a class="text-light text-decoration-none nav-link fw-bolder p-4" href="">ABOUT</a>
+        <li class="nav-item active"><a class="text-light text-decoration-none nav-link fw-bolder p-4 " href="">ABOUT</a>
         </li>
-        <li class="nav-item active"><a class="text-light text-decoration-none nav-link fw-bolder p-4"
+        <li class="nav-item active"><a class="text-light text-decoration-none nav-link fw-bolder p-4 "
             href="">CONTACT</a>
         </li>
       </ul>
@@ -39,7 +39,7 @@
           class="navbar-toggler-icon w-50"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="mynav">
+      <div class="collapse navbar-collapse d-lg-none" id="mynav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
             <a href="" class="nav-link text-light fw-bolder py-3">PORTFOLIO</a>
@@ -58,44 +58,42 @@
 
   <!-- hero-start -->
 
-  <section class="hero">
+  <section class="hero green_bg">
     <div
-      class="container hero_container d-flex flex-column justify-content-center align-items-center gap-4 border border-danger text-center">
+      class="container hero_container d-flex flex-column justify-content-center align-items-center gap-4 text-center">
       <img style="width: 220px;" src="./src/assests/images/avataaars.svg" alt="">
-      <h1 class="w-100">START BOOTSTRAP</h1>
+      <h1 class="w-100 mb-0 pb-0">START BOOTSTRAP</h1>
       <div class="hero_container_text p-0 d-flex justify-content-center align-items-center gap-4">
-        <div class="text_line"></div>
+        <div class="text_line_light"></div>
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
           class="hero_star bi bi-star-fill" viewBox="0 0 16 16">
           <path
             d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
         </svg>
-        <div class="text_line"></div>
+        <div class="text_line_light"></div>
       </div>
-      <p>Graphic Artist-Web Designer-Illustrator</p>
+      <p class="mb-0">Graphic Artist-Web Designer-Illustrator</p>
     </div>
   </section>
 
   <!-- portfolio start -->
 
-  <section class="portfolio" style="margin: 6rem 0;">
+  <section class="portfolio py">
     <div class="container d-flex flex-column justify-content-center align-items-center m-auto">
-      <div class="my-4 border border-danger">
+      <div class="pb-4 gap">
         <h1>PORTFOLIO</h1>
         <div class="d-flex justify-content-center align-items-center gap-4">
-          <div class="text-line"
-            style="width: 100px; height: 5px; border-radius: 5px; background-color: rgb(44, 62, 80);"></div>
+          <div class="text_line_dark"></div>
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
             class="hero_star bi bi-star-fill" viewBox="0 0 16 16">
             <path
               d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
           </svg>
-          <div class="text-line"
-            style="width: 100px; height: 5px; border-radius: 5px; background-color: rgb(44, 62, 80);"></div>
+          <div class="text_line_dark"></div>
         </div>
       </div>
 
-      <div class="row border-success mb-4">
+      <div class="row border-success mb-0">
         <div class="col-12 col-lg-4 col-md-6 portfolio-item mb-4">
           <img class="img-fluid rounded-3" src="./src/assests/images/cabin.png" alt="">
         </div>
@@ -105,97 +103,96 @@
         <div class="col-12 col-lg-4 col-md-6 portfolio-item mb-4">
           <img class="img-fluid rounded-3" src="./src/assests/images/circus.png" alt="">
         </div>
-        <div class="col-12 col-lg-4 col-md-6 portfolio-item mb-4">
+        <div class="col-12 col-lg-4 col-md-6 portfolio-item">
           <img class="img-fluid rounded-3" src="./src/assests/images/game.png" alt="">
         </div>
-        <div class="col-12 col-lg-4 col-md-6 portfolio-item mb-4">
+        <div class="col-12 col-lg-4 col-md-6 portfolio-item">
           <img class="img-fluid rounded-3" src="./src/assests/images/safe.png" alt="">
         </div>
-        <div class="col-12 col-lg-4 col-md-6  mb-4">
+        <div class="col-12 col-lg-4 col-md-6">
           <img class="img-fluid portfolio-item rounded-3" src="./src/assests/images/submarine.png" alt="">
         </div>
       </div>
     </div>
   </section>
 
-  <section class="about" style="padding: 6rem 0;">
+  <section class="about py">
     <div class="container d-flex flex-column justify-content-center align-content-center text-center text-light fs-5">
-      <div class="pb-3">
+      <div class="pb-3 gap">
         <h1>ABOUT</h1>
         <div class="hero_container_text p-0 d-flex justify-content-center align-items-center gap-4">
-          <div class="text_line" style="width: 100px; height: 5px; border-radius: 5px; background-color: white;"></div>
+          <div class="text_line_light"></div>
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
             class="hero_star bi bi-star-fill" viewBox="0 0 16 16">
             <path
               d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
           </svg>
-          <div class="text_line" style="width: 100px; height: 5px; border-radius: 5px; background-color: white;"></div>
+          <div class="text_line_light"></div>
         </div>
       </div>
       <div class="row d-flex justify-content-center pb-3">
-        <p class="col col-md-4 text-start">Freelancer is a free bootstrap theme created by Start Bootstrap. The download
+        <p class="col-12 col-lg-4 text-start">Freelancer is a free bootstrap theme created by Start Bootstrap.
+          The
+          download
           includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets
           for easy
           customization.</p>
-        <p class="col col-md-4 text-start">You can create your own custom avatar for the masthead, change the icon in
-          the dividers,
-          and add your email address to the contact form to make it fully functional!</p>
+        <p class="col-12 col-lg-4 text-start">You can create your own custom avatar for the masthead, change
+          the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
       </div>
-
-      <button href="btn-outline-light bg-light">
-        <svg class="svg-inline--fa fa-download me-2" style="width: 20px;" aria-hidden="true" focusable="false"
-          data-prefix="fas" data-icon="download" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
-          data-fa-i2svg="">
-          <path fill="currentColor"
-            d="M480 352h-133.5l-45.25 45.25C289.2 409.3 273.1 416 256 416s-33.16-6.656-45.25-18.75L165.5 352H32c-17.67 0-32 14.33-32 32v96c0 17.67 14.33 32 32 32h448c17.67 0 32-14.33 32-32v-96C512 366.3 497.7 352 480 352zM432 456c-13.2 0-24-10.8-24-24c0-13.2 10.8-24 24-24s24 10.8 24 24C456 445.2 445.2 456 432 456zM233.4 374.6C239.6 380.9 247.8 384 256 384s16.38-3.125 22.62-9.375l128-128c12.49-12.5 12.49-32.75 0-45.25c-12.5-12.5-32.76-12.5-45.25 0L288 274.8V32c0-17.67-14.33-32-32-32C238.3 0 224 14.33 224 32v242.8L150.6 201.4c-12.49-12.5-32.75-12.5-45.25 0c-12.49 12.5-12.49 32.75 0 45.25L233.4 374.6z">
-          </path>
-        </svg>Free Download!</button>
-
+      <div>
+        <button class="btn btn-outline-light text-light p-3 fs-5" href="">
+          <svg class="svg-inline--fa fa-download me-2" style="width: 20px;" aria-hidden="true" focusable="false"
+            data-prefix="fas" data-icon="download" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+            data-fa-i2svg="">
+            <path fill="currentColor"
+              d="M480 352h-133.5l-45.25 45.25C289.2 409.3 273.1 416 256 416s-33.16-6.656-45.25-18.75L165.5 352H32c-17.67 0-32 14.33-32 32v96c0 17.67 14.33 32 32 32h448c17.67 0 32-14.33 32-32v-96C512 366.3 497.7 352 480 352zM432 456c-13.2 0-24-10.8-24-24c0-13.2 10.8-24 24-24s24 10.8 24 24C456 445.2 445.2 456 432 456zM233.4 374.6C239.6 380.9 247.8 384 256 384s16.38-3.125 22.62-9.375l128-128c12.49-12.5 12.49-32.75 0-45.25c-12.5-12.5-32.76-12.5-45.25 0L288 274.8V32c0-17.67-14.33-32-32-32C238.3 0 224 14.33 224 32v242.8L150.6 201.4c-12.49-12.5-32.75-12.5-45.25 0c-12.49 12.5-12.49 32.75 0 45.25L233.4 374.6z">
+            </path>
+          </svg>Free Download!</button>
+      </div>
     </div>
   </section>
 
-  <section class="contact">
+  <section class="contact py">
     <div class="container d-flex flex-column justify-content-center align-content-center text-center fs-5">
-      <div class="pb-3">
+      <div class="gap">
         <h1>CONTACT ME</h1>
         <div class="hero_container_text p-0 d-flex justify-content-center align-items-center gap-4">
-          <div class="text_line"
-            style="width: 100px; height: 5px; border-radius: 5px; background-color: rgb(44, 62, 80);"></div>
+          <div class="text_line_dark"></div>
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
             class="hero_star bi bi-star-fill" viewBox="0 0 16 16">
             <path
               d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
           </svg>
-          <div class="text_line"
-            style="width: 100px; height: 5px; border-radius: 5px; background-color: rgb(44, 62, 80);"></div>
+          <div class="text_line_dark"></div>
         </div>
       </div>
 
-      <div class="row justify-content-center align-content-start">
+      <div class="row justify-content-center align-content-start ">
         <div class="col-lg-8 col-xl-7">
           <form id="contactForm">
-            <div class="form-floating mb-3">
-              <input class="form-control border-top-0 border-start-0 border-end-0" id="name" type="text"
+            <div class="form-floating mb-3 py-4">
+              <input class="form-control border-top-0 border-start-0 border-end-0 shadow-none" id="name" type="text"
                 placeholder="Enter your name..." data-sb-validations="required" data-sb-can-submit="no">
               <label for="name">Full name</label>
               <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
             </div>
-            <div class="form-floating mb-3">
-              <input class="form-control border-top-0 border-start-0 border-end-0" id="email" type="email"
+            <div class="form-floating mb-3 py-4">
+              <input class="form-control border-top-0 border-start-0 border-end-0 shadow-none" id="email" type="email"
                 placeholder="name@example.com" data-sb-validations="required,email" data-sb-can-submit="no">
               <label for="email">Email address</label>
               <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
               <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
             </div>
-            <div class="form-floating mb-3">
-              <input class="form-control border-top-0 border-start-0 border-end-0" id="phone" type="tel"
-                placeholder="(123) 456-7890" data-sb-validations="required" data-sb-can-submit="no">
+            <div class="form-floating mb-3 py-4">
+              <input class="form-control border-top-0 border-start-0 border-end-0 py-4 shadow-none" id="phone"
+                type="tel" placeholder="(123) 456-7890" data-sb-validations="required" data-sb-can-submit="no">
               <label for="phone">Phone number</label>
               <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
             </div>
-            <div class="form-floating mb-3">
-              <textarea class="form-control border-top-0 border-start-0 border-end-0 is-invalid" id="message"
-                type="text" placeholder="Enter your message here..." style="height: 10rem"
+            <div class="form-floating mb-3 py-4">
+              <textarea class="form-control border-top-0 border-start-0 border-end-0 is-invalid py-4 shadow-none"
+                id="message" type="text" placeholder="Enter your message here..." style="height: 10rem"
                 data-sb-validations="required" data-sb-can-submit="no"></textarea>
               <label for="message">Message</label>
               <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
@@ -203,13 +200,44 @@
             <div class="d-none" id="submitErrorMessage">
               <div class="text-center text-danger mb-3">Error sending message!</div>
             </div>
-            <button class="btn btn-primary btn-xl disabled align-content-start py-3 px-4 rounded-3" id="submitButton"
-              type="submit">Send</button>
+            <div class="col d-flex justify-content-start">
+              <button class="btn btn-primary btn-xl disabled align-content-start py-3 px-4 rounded-3" id="submitButton"
+                type="submit">Send</button>
+            </div>
           </form>
         </div>
       </div>
     </div>
   </section>
+
+  <footer class="bg-dark text-light py">
+    <div class="container d-flex justify-content-center align-content-center m-auto text-center gap-md-5">
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <h4 class="pb-3">LOCATION</h4>
+          <p>2215 John Daniel Drive
+            Clark, MO 65243</p>
+        </div>
+        <div class="col-12 col-md-4">
+          <h4 class="pb-3">AROUND THE WEB</h4>
+          <div class="d-flex justify-content-center align-content-center gap-2">
+            <a class="btn btn-outline-light fs-4 rounded-5" href=""><i class="fa-brands fa-facebook"></i></a>
+            <a class="btn btn-outline-light fs-4 rounded-5" href=""><i class="fa-brands fa-twitter"></i></a>
+            <a class="btn btn-outline-light fs-4 rounded-5" href=""><i class="fa-brands fa-linkedin-in"></i></a>
+            <a class="btn btn-outline-light fs-4 rounded-5" href=""><i class="fa-solid fa-basketball"></i></a>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <h4 class="pb-3">ABOUT FREELANCER</h4>
+          <p>Freelance is a free to use, MIT licensed Bootstrap theme created by <a href="">Start Bootstrap</a>.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <footer class="text-center py-4 bg-dark text-light">
+    <span>Copyright © Your Website 2022</span>
+  </footer>
 
   <script type="module" src="/main.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

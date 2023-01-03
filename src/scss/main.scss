@@ -3,8 +3,11 @@
 
 //layout
 @import "./layout/_header.scss";
-@import "./layout/hero.scss";
-@import "./layout/row.scss";
+@import "./layout/_hero.scss";
+@import "./layout/_row.scss";
+
+//base
+@import "./base/_global.scss";
 
 .img_choose {
   height: 300px;

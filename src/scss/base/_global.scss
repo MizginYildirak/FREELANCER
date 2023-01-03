@@ -1,0 +1,41 @@
+.py {
+  padding: 5rem 0;
+}
+
+.hero {
+  padding: 6rem 0;
+  color: white;
+  background-color: rgb(44, 62, 80);
+}
+
+.green_bg {
+  background-color: $hero-bg;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  padding-bottom: 14px;
+}
+
+.text_line_light {
+  width: 100px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.text_line_dark {
+  width: 100px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: $nav-bg;
+}
+
+p {
+  font-size: 20px;
+}
+
+.gap {
+  padding-bottom: 30px !important;
+}
