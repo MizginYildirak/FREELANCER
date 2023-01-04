@@ -1,3 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav,
+.first_footer {
+  background-color: rgb(44, 62, 80) !important;
+}
+
 .py {
   padding: 6rem 0;
 }
@@ -5,11 +16,11 @@
 .hero {
   padding: 6rem 0;
   color: white;
-  background-color: rgb(44, 62, 80);
+  background-color: #20c497;
 }
 
-.green_bg {
-  background-color: $hero-bg;
+.about {
+  background-color: #20c497;
 }
 
 h1 {
@@ -29,7 +40,7 @@ h1 {
   width: 100px;
   height: 5px;
   border-radius: 5px;
-  background-color: $nav-bg;
+  background-color: rgb(44, 62, 80);
 }
 
 p {
@@ -52,12 +63,8 @@ p {
   width: 250px;
 }
 
-.first_footer {
-  background-color: $nav-bg !important;
-}
-
 .send {
-  background-color: $hero-bg !important;
+  background-color: #20c497 !important;
   border: none;
 }
 
@@ -78,6 +85,7 @@ p {
   justify-content: center;
   height: 100%;
   width: 100%;
+  cursor: pointer;
 }
 
 .plus:hover .plus-svg {
@@ -99,7 +107,4 @@ p {
   width: 25%;
   height: 25%;
   color: white;
-}
-
-@media only screen and (max-width: 768px) {
 }
