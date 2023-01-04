@@ -1,5 +1,5 @@
 .py {
-  padding: 5rem 0;
+  padding: 6rem 0;
 }
 
 .hero {
@@ -36,6 +36,27 @@ p {
   font-size: 20px;
 }
 
+.heading {
+  font-size: 70px;
+}
+
 .gap {
   padding-bottom: 30px !important;
+}
+
+.brand {
+  font-size: 80px;
+}
+
+.avatar {
+  width: 250px;
+}
+
+.first_footer {
+  background-color: $nav-bg !important;
+}
+
+.send {
+  background-color: $hero-bg !important;
+  border: none;
 }

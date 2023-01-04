@@ -19,17 +19,18 @@
 
 
   <!-- nav start -->
+  <!-- 
   <nav
     class="navbar navbar-expand-lg navbar-fixed-top py-4 d-flex justify-content-center align-content-center text-light">
     <div class="container">
-      <span class="navbar-brand m-0 h1 text-light fs-3 fw-bolder pb-0">START BOOTSTRAP</span>
+      <span class="navbar-brand m-0 h1 text-light fs-3 fw-bolder pb-0 brand">START BOOTSTRAP</span>
 
-      <ul class="d-flex list-unstyled justify-content-center align-content-center m-0 d-sm-none">
-        <li class="nav-item active"><a class="text-light text-decoration-none nav-link fw-bolder p-4 "
+      <ul class="d-flex list-unstyled justify-content-center align-content-center m-0 d-none d-sm-block">
+        <li class="nav-item active"><a class="text-light text-decoration-none nav-link fw-bolder p-4"
             href="">PORTFOLIO</a></li>
-        <li class="nav-item active"><a class="text-light text-decoration-none nav-link fw-bolder p-4 " href="">ABOUT</a>
+        <li class="nav-item active"><a class="text-light text-decoration-none nav-link fw-bolder p-4" href="">ABOUT</a>
         </li>
-        <li class="nav-item active"><a class="text-light text-decoration-none nav-link fw-bolder p-4 "
+        <li class="nav-item active"><a class="text-light text-decoration-none nav-link fw-bolder p-4"
             href="">CONTACT</a>
         </li>
       </ul>
@@ -39,30 +40,56 @@
           class="navbar-toggler-icon w-50"></span>
       </button>
 
-      <div class="collapse navbar-collapse d-lg-none" id="mynav">
-        <ul class="navbar-nav ms-auto">
+      <div class="collapse navbar-collapse d-lg-none d-flex " id="mynav">
+        <ul class="navbar-nav ms-auto gap-4">
           <li class="nav-item">
-            <a href="" class="nav-link text-light fw-bolder py-3">PORTFOLIO</a>
+            <a href="" class="nav-link text-light fw-bolder py-3 fs-6">PORTFOLIO</a>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link text-light fw-bolder py-3">ABOUT</a>
+            <a href="" class="nav-link text-light fw-bolder py-3 fs-6">ABOUT</a>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link text-light fw-bolder py-3">CONTACT</a>
+            <a href="" class="nav-link text-light fw-bolder py-3 fs-6">CONTACT</a>
           </li>
         </ul>
       </div>
     </div>
-  </nav>
+  </nav> -->
 
+  <nav class="navbar navbar-expand-lg navbar-light py-4">
+    <div class="container ">
+      <a class="navbar-brand m-0 h1 text-light fs-3 fw-bolder pb-0 brand" href="#">START BOOTSTRAP</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+          <li class="nav-item">
+            <a class="nav-link text-light fw-bold rounded p-3" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light fw-bold rounded p-3" aria-current="page" href="#">PORTFOLIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light fw-bold rounded p-3" aria-current="page" href="#">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light fw-bold rounded p-3" aria-current="page" href="#">CONTACT</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
 
   <!-- hero-start -->
 
   <section class="hero green_bg">
     <div
       class="container hero_container d-flex flex-column justify-content-center align-items-center gap-4 text-center">
-      <img style="width: 220px;" src="./src/assests/images/avataaars.svg" alt="">
-      <h1 class="w-100 mb-0 pb-0">START BOOTSTRAP</h1>
+      <img class="avatar" src="./src/assests/images/avataaars.svg" alt="">
+      <h1 class="w-100 mb-0 pb-0 heading">START BOOTSTRAP</h1>
       <div class="hero_container_text p-0 d-flex justify-content-center align-items-center gap-4">
         <div class="text_line_light"></div>
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -93,14 +120,14 @@
         </div>
       </div>
 
-      <div class="row border-success mb-0">
-        <div class="col-12 col-lg-4 col-md-6 portfolio-item mb-4">
+      <div class="row border-success mb-0 gap-4 gap-md-0">
+        <div class="col-12 col-lg-4 col-md-6 portfolio-item mb-md-4">
           <img class="img-fluid rounded-3" src="./src/assests/images/cabin.png" alt="">
         </div>
-        <div class="col-12 col-lg-4 col-md-6 portfolio-item mb-4">
+        <div class="col-12 col-lg-4 col-md-6 portfolio-item mb-md-4">
           <img class="img-fluid rounded-3" src="./src/assests/images/cake.png" alt="">
         </div>
-        <div class="col-12 col-lg-4 col-md-6 portfolio-item mb-4">
+        <div class="col-12 col-lg-4 col-md-6 portfolio-item mb-md-4">
           <img class="img-fluid rounded-3" src="./src/assests/images/circus.png" alt="">
         </div>
         <div class="col-12 col-lg-4 col-md-6 portfolio-item">
@@ -134,7 +161,8 @@
         <p class="col-12 col-lg-4 text-start">Freelancer is a free bootstrap theme created by Start Bootstrap.
           The
           download
-          includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets
+          includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS
+          stylesheets
           for easy
           customization.</p>
         <p class="col-12 col-lg-4 text-start">You can create your own custom avatar for the masthead, change
@@ -171,26 +199,26 @@
       <div class="row justify-content-center align-content-start ">
         <div class="col-lg-8 col-xl-7">
           <form id="contactForm">
-            <div class="form-floating mb-3 py-4">
+            <div class="form-floating py-4">
               <input class="form-control border-top-0 border-start-0 border-end-0 shadow-none" id="name" type="text"
                 placeholder="Enter your name..." data-sb-validations="required" data-sb-can-submit="no">
               <label for="name">Full name</label>
               <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
             </div>
-            <div class="form-floating mb-3 py-4">
+            <div class="form-floating py-4">
               <input class="form-control border-top-0 border-start-0 border-end-0 shadow-none" id="email" type="email"
                 placeholder="name@example.com" data-sb-validations="required,email" data-sb-can-submit="no">
               <label for="email">Email address</label>
               <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
               <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
             </div>
-            <div class="form-floating mb-3 py-4">
+            <div class="form-floating py-4">
               <input class="form-control border-top-0 border-start-0 border-end-0 py-4 shadow-none" id="phone"
                 type="tel" placeholder="(123) 456-7890" data-sb-validations="required" data-sb-can-submit="no">
               <label for="phone">Phone number</label>
               <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
             </div>
-            <div class="form-floating mb-3 py-4">
+            <div class="form-floating py-4">
               <textarea class="form-control border-top-0 border-start-0 border-end-0 is-invalid py-4 shadow-none"
                 id="message" type="text" placeholder="Enter your message here..." style="height: 10rem"
                 data-sb-validations="required" data-sb-can-submit="no"></textarea>
@@ -198,11 +226,11 @@
               <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
             </div>
             <div class="d-none" id="submitErrorMessage">
-              <div class="text-center text-danger mb-3">Error sending message!</div>
+              <div class="text-center text-danger">Error sending message!</div>
             </div>
             <div class="col d-flex justify-content-start">
-              <button class="btn btn-primary btn-xl disabled align-content-start py-3 px-4 rounded-3" id="submitButton"
-                type="submit">Send</button>
+              <button class="btn btn-primary send btn-xl disabled align-content-start py-3 px-4 rounded-3"
+                id="submitButton" type="submit">Send</button>
             </div>
           </form>
         </div>
@@ -210,12 +238,12 @@
     </div>
   </section>
 
-  <footer class="bg-dark text-light py">
+  <footer class="bg-dark text-light py-5 first_footer">
     <div class="container d-flex justify-content-center align-content-center m-auto text-center gap-md-5">
-      <div class="row">
+      <div class="row gap-5 gap-lg-0">
         <div class="col-12 col-md-4">
           <h4 class="pb-3">LOCATION</h4>
-          <p>2215 John Daniel Drive
+          <p class="mb-0">2215 John Daniel Drive
             Clark, MO 65243</p>
         </div>
         <div class="col-12 col-md-4">
@@ -229,7 +257,8 @@
         </div>
         <div class="col-12 col-md-4">
           <h4 class="pb-3">ABOUT FREELANCER</h4>
-          <p>Freelance is a free to use, MIT licensed Bootstrap theme created by <a href="">Start Bootstrap</a>.</p>
+          <p class="mb-0">Freelance is a free to use, MIT licensed Bootstrap theme created by <a href="">Start
+              Bootstrap</a>.</p>
         </div>
       </div>
     </div>
